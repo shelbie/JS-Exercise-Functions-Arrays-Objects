@@ -83,7 +83,7 @@ function temperatureCtoF(temperatureInC) {
  * Hint: You can call your `temperatureCtoF` function from inside `temperatureInF`.
 */
 function temperatureInF(temp, F) {
-  return temp + F
+  return temp + F;
 }
 
 
@@ -104,7 +104,7 @@ function temperatureInF(temp, F) {
  * }
 */
 function makePersonObject(id, name, email) {
-  return Object={
+  return Obj = {
     id: id,
     name: name,
     email: email
@@ -124,8 +124,8 @@ function makePersonObject(id, name, email) {
  * passing { id: 1, name: 'Leia', email: 'leia@leia.com` } as the argument,
  * the returned value should look like `Hello, my name is Leia`.
 */
-function getName(/* code here */) {
-  /* code here */
+function getName(obj) {
+  return `Hello, my name is ${obj.name}`;
 }
 
 
@@ -144,8 +144,11 @@ function getName(/* code here */) {
  * passing in [ 'orange', 'grape', 'apple', 'banana', 'mango' ] as the argument,
  * the returned value should be: 2.
 */
-function appleIndex(/* code here */) {
-  /* code here */
+function appleIndex(array) {
+  let i = 0; i < array.length; i++;
+  if (array[i] === 'apple')
+  return [i].length;
+  
 }
 
 /**
@@ -163,8 +166,14 @@ function appleIndex(/* code here */) {
  * passing in [ 'orange', 'apple', 'banana', 'apples', 'apple', 'mango' ] as the argument,
  * the returned value should be: [ false, true, false, false, true, false ].
 */
-function isItAnApple(/* code here */) {
-  /* code here */
+function isItAnApple(arr) {
+  // let i = 0; i < arr.length; i++;
+  // if (arr[i] = 'apple'){
+  //   return true;
+  // } else {
+  //   return false;
+  // }
+  
 }
 
 

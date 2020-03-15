@@ -148,7 +148,7 @@ describe('isItAnApple', () => {
   })
 });
 
-describe("getCarInfoByIndex()", () => {
+xdescribe("getCarInfoByIndex()", () => {
   it("returns a string containing the car_make", () => {
     expect(getCarInfoByIndex(inventory, 0)).to.include(inventory[0].car_make);
   });

@@ -82,8 +82,8 @@ function temperatureCtoF(temperatureInC) {
  * 
  * Hint: You can call your `temperatureCtoF` function from inside `temperatureInF`.
 */
-function temperatureInF(temp, F) {
-  return temp + F;
+function temperatureInF(temp, unit) {
+  return (unit === 'F' ? temp : temperatureCtoF(temp)) + "F"
 }
 
 
@@ -167,12 +167,12 @@ function appleIndex(array) {
  * the returned value should be: [ false, true, false, false, true, false ].
 */
 function isItAnApple(arr) {
-  // let i = 0; i < arr.length; i++;
-  // if (arr[i] = 'apple'){
-  //   return true;
-  // } else {
-  //   return false;
-  // }
+  let i = 0; i < arr.length; i++;
+  if (arr[i] = 'apple'){
+    return true;
+  } else {
+    return false;
+  }
   
 }
 

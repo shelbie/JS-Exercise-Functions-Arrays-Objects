@@ -171,7 +171,7 @@ xdescribe("getLastCarInfo()", () => {
 });
 
 
-describe("getModelYears()", () => {
+xdescribe("getModelYears()", () => {
   it("returns an array of car years", () => {
     const carYears = inventory.map(c => c.car_year);
     expect(getModelYears(inventory)).to.eql(carYears);

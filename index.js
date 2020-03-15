@@ -104,7 +104,7 @@ function temperatureInF(temp, F) {
  * }
 */
 function makePersonObject(id, name, email) {
-  return Obj = {
+  return{
     id: id,
     name: name,
     email: email
@@ -232,7 +232,7 @@ function get3rdCar(inventory) {
 */
 function getCarInfoByIndex(inventory, index) {
   let i = 0; i < inventory.length; i++;
-  return `This is a ${inventory[car_make]} ${inventory[i].car_model}`
+  return `This is a ${inventory[index].car_make} ${inventory[index].car_model}`
 }
 
 /**

@@ -167,12 +167,12 @@ function appleIndex(array) {
  * the returned value should be: [ false, true, false, false, true, false ].
 */
 function isItAnApple(arr) {
-  let i = 0; i < arr.length; i++;
-  if (arr[i] = 'apple'){
-    return true;
-  } else {
-    return false;
+  newArr = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    newArr.push(arr[i] === 'apple');
   }
+  return newArr;
   
 }
 

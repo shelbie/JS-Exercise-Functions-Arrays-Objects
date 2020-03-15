@@ -157,7 +157,7 @@ xdescribe("getCarInfoByIndex()", () => {
   });
 });
 
-describe("getLastCarInfo()", () => {
+xdescribe("getLastCarInfo()", () => {
   it("returns a string containing the car_make", () => {
     expect(getLastCarInfo(inventory)).to.include(
       inventory[inventory.length - 1].car_make
